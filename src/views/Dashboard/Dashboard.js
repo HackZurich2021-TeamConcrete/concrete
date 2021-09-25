@@ -189,7 +189,7 @@ export default function Dashboard() {
     <GridContainer>
       <GridItem xs={10} sm={10} md={10}>
         <Card chart>
-          <CardHeader color="danger">
+          <CardHeader color="info">
             <ChartistGraph
               className="ct-chart"
               data={completedTasksChart.data}
@@ -205,8 +205,8 @@ export default function Dashboard() {
       </GridItem>
         <GridItem xs={2} sm={2} md={2}>
           <Card>
-            <CardHeader color="danger" stats icon>
-              <CardIcon color="danger">
+            <CardHeader color="info" stats icon>
+              <CardIcon color="info">
                 <Icon>taxi_alert</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>Score</p>
