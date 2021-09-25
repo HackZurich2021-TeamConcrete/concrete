@@ -37,6 +37,7 @@ export default function ComplexGrid({ onClick }) {
       <Paper className={classes.paper} variant="outlined" square onClick={onClick}>
 
         <Grid container spacing={3}>
+
           <Grid item>
             <Grid item>
               <Typography variant="subtitle1">$12</Typography>
@@ -49,31 +50,24 @@ export default function ComplexGrid({ onClick }) {
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography variant="body2" color="textSecondary">
-                  Total ordered
+                  Total ordered: 38 m^3
               </Typography>
-                <Typography gutterBottom variant="subtitle1">
-                  38 m^3
+                <Typography variant="body2" color="textSecondary">
+                  Delivered: 35 m^3
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  Delivered
-                </Typography>
-                <Typography gutterBottom variant="subtitle1">
-                  35 m^3
-                </Typography>
-                <Typography variant="body2" color="textSecondary">
-                  Used
-                </Typography>
-                <Typography gutterBottom variant="subtitle1">
-                  29.4 m^3
+                  Used: 29.4 m^3
                 </Typography>
 
                 <Typography variant="body2" color="textSecondary">
-                  Possible pickuptime:
+                Average Quality ordered: 4
                 </Typography>
-                <Typography gutterBottom variant="subtitle1">
-                  qwe
+                <Typography variant="body2" color="textSecondary">
+                Average Quality delivered: 3,87
                 </Typography>
-
+                <Typography variant="body2" color="textSecondary">
+                Average Quality needed: 3,83
+                </Typography>
               </Grid>
               <Grid item>
 
