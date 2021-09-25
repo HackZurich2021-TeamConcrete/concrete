@@ -84,7 +84,7 @@ export default function Dashboard() {
       <Card>
         <CardHeader color="info" stats icon>
           <CardIcon color="info">
-          <Icon>add</Icon>
+          <Icon>functions</Icon>
           </CardIcon>
           <p className={classes.cardCategory}>Aggregated Score</p>
           <h3 className={classes.cardTitle}>5.4</h3>
