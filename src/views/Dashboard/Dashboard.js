@@ -111,7 +111,7 @@ export default function Dashboard() {
                 />
               </CardHeader>
               <CardBody>
-                <h2 className={classes.cardTitle}>Demanded vs. Required Trucks</h2>
+                <h2 className={classes.cardTitle}>Demanded vs. Required Volume [m^3]</h2>
               </CardBody>
           </Card>
         </GridItem>
@@ -155,7 +155,7 @@ export default function Dashboard() {
             />
           </CardHeader>
           <CardBody>
-            <h2 className={classes.cardTitle}>Demanded vs. Expected Fiber Types</h2>
+            <h2 className={classes.cardTitle}>Delivered vs Required Concrete Quality</h2>
           </CardBody>
         </Card>
       </GridItem>
@@ -199,7 +199,7 @@ export default function Dashboard() {
             />
           </CardHeader>
           <CardBody>
-            <h2 className={classes.cardTitle}>Transportation Hours vs. Congestion</h2>
+            <h2 className={classes.cardTitle}>Number of Delivery Trucks vs. Traffic Volume</h2>
           </CardBody>
         </Card>
       </GridItem>
