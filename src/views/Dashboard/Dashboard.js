@@ -149,7 +149,7 @@ export default function Dashboard() {
             <ChartistGraph
               className="ct-chart"
               data={dailySalesChart.data}
-              type="Line"
+              type="Bar"
               options={dailySalesChart.options}
               listener={dailySalesChart.animation}
             />
