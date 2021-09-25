@@ -98,7 +98,7 @@ export default function Dashboard() {
     </GridItem>
     </GridContainer>
       <GridContainer>
-        <GridItem xs={10} sm={10} md={10}>
+        <GridItem xs={9} sm={9} md={9}>
           <Card chart>
             <CardHeader color="warning">
               <ChartistGraph
@@ -115,7 +115,7 @@ export default function Dashboard() {
               </CardBody>
           </Card>
         </GridItem>
-        <GridItem xs={2} sm={2} md={2}>
+        <GridItem xs={3} sm={3} md={3}>
           <Card>
             <CardHeader color="warning" stats icon>
               <CardIcon color="warning">
@@ -143,7 +143,7 @@ export default function Dashboard() {
       </GridContainer>
 
       <GridContainer>
-      <GridItem xs={10} sm={10} md={10}>
+      <GridItem xs={9} sm={9} md={9}>
         <Card chart>
           <CardHeader color="success">
             <ChartistGraph
@@ -159,7 +159,7 @@ export default function Dashboard() {
           </CardBody>
         </Card>
       </GridItem>
-      <GridItem xs={2} sm={2} md={2}>
+      <GridItem xs={3} sm={3} md={3}>
         <Card>
           <CardHeader color="success" stats icon>
             <CardIcon color="success">
@@ -187,7 +187,7 @@ export default function Dashboard() {
     </GridContainer>
 
     <GridContainer>
-      <GridItem xs={10} sm={10} md={10}>
+      <GridItem xs={9} sm={9} md={9}>
         <Card chart>
           <CardHeader color="info">
             <ChartistGraph
@@ -203,7 +203,7 @@ export default function Dashboard() {
           </CardBody>
         </Card>
       </GridItem>
-        <GridItem xs={2} sm={2} md={2}>
+        <GridItem xs={3} sm={3} md={3}>
           <Card>
             <CardHeader color="info" stats icon>
               <CardIcon color="info">
