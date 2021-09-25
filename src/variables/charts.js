@@ -17,15 +17,15 @@ var delays2 = 80,
 
 const dailySalesChart = {
   data: {
-    labels: ["M", "T", "W", "T", "F", "S", "S"],
-    series: [[12, 17, 7, 17, 23, 18, 38]],
+    labels: ["Typ A", "Typ B", "Typ C", "Typ D", "Typ E"],
+    series: [[12, 17, 7, 17, 23], [15,15,16,6,7]],
   },
   options: {
     lineSmooth: Chartist.Interpolation.cardinal({
       tension: 0,
     }),
     low: 0,
-    high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 20, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,
@@ -72,20 +72,22 @@ const dailySalesChart = {
 const emailsSubscriptionChart = {
   data: {
     labels: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
+      "Jan20",
+      "Feb20",
+      "Mar20",
+      "Apr20",
+      "May20",
+      "Jun20",
+      "Jul20",
+      "Aug20",
+      "Sep20",
+      "Oct20",
+      "Nov20",
+      "Dec20",
+      "Jan21"
     ],
-    series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]],
+    series: [[542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895, 760],
+             [42, 53, 26, 78, 55, 45, 32, 43, 56, 61, 75, 89, 76]],
   },
   options: {
     axisX: {
@@ -136,15 +138,15 @@ const emailsSubscriptionChart = {
 
 const completedTasksChart = {
   data: {
-    labels: ["12am", "3pm", "6pm", "9pm", "12pm", "3am", "6am", "9am"],
-    series: [[230, 750, 450, 300, 280, 240, 200, 190]],
+    labels: ["01:00", "04:00", "07:00", "11:00", "14:00", "17:00", "20:00", "24:00"],
+    series: [[12, 17, 7, 17, 23, 18, 38, 16], [4,5,23,15,14,25,13,12]],
   },
   options: {
     lineSmooth: Chartist.Interpolation.cardinal({
       tension: 0,
     }),
     low: 0,
-    high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 40, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,
