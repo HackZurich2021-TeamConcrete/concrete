@@ -12,7 +12,6 @@ import LocalOffer from "@material-ui/icons/LocalOffer";
 import Update from "@material-ui/icons/Update";
 import ArrowUpward from "@material-ui/icons/ArrowUpward";
 import AccessTime from "@material-ui/icons/AccessTime";
-import Accessibility from "@material-ui/icons/Accessibility";
 import BugReport from "@material-ui/icons/BugReport";
 import Code from "@material-ui/icons/Code";
 import Cloud from "@material-ui/icons/Cloud";
@@ -51,20 +50,16 @@ export default function Dashboard() {
       <Card>
         <CardHeader color="info" stats icon>
           <CardIcon color="info">
-            <Accessibility />
+          <Icon>attach_money</Icon>
           </CardIcon>
           <p className={classes.cardCategory}>Avoidable Costs</p>
           <h3 className={classes.cardTitle}>
-          <span className={classes.successText}>
-            <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-          </span>{"    "}
-          150 B$
+          $420.0bn
           </h3>
         </CardHeader>
         <CardFooter stats>
           <div className={classes.stats}>
-            <Update />
-            Just Updated
+
           </div>
         </CardFooter>
       </Card>
@@ -73,15 +68,14 @@ export default function Dashboard() {
       <Card>
         <CardHeader color="info" stats icon>
           <CardIcon color="info">
-            <Accessibility />
+          <Icon>co2</Icon>
           </CardIcon>
-          <p className={classes.cardCategory}>Followers</p>
-          <h3 className={classes.cardTitle}>+245</h3>
+          <p className={classes.cardCategory}>Avoidable CO2 Emissions</p>
+          <h3 className={classes.cardTitle}>120.0t</h3>
         </CardHeader>
         <CardFooter stats>
           <div className={classes.stats}>
-            <Update />
-            Just Updated
+
           </div>
         </CardFooter>
       </Card>
@@ -90,15 +84,14 @@ export default function Dashboard() {
       <Card>
         <CardHeader color="info" stats icon>
           <CardIcon color="info">
-            <Accessibility />
+          <Icon>add</Icon>
           </CardIcon>
-          <p className={classes.cardCategory}>Followers</p>
-          <h3 className={classes.cardTitle}>+245</h3>
+          <p className={classes.cardCategory}>Aggregated Score</p>
+          <h3 className={classes.cardTitle}>5.4</h3>
         </CardHeader>
         <CardFooter stats>
           <div className={classes.stats}>
-            <Update />
-            Just Updated
+
           </div>
         </CardFooter>
       </Card>
@@ -126,7 +119,7 @@ export default function Dashboard() {
           <Card>
             <CardHeader color="warning" stats icon>
               <CardIcon color="warning">
-                <Icon>content_copy</Icon>
+                <Icon>airline_stops</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>Score</p>
               <h3 className={classes.cardTitle}>
@@ -134,7 +127,7 @@ export default function Dashboard() {
               </h3>
               <p className={classes.cardCategory}>Additional Cost</p>
               <h4 className={classes.cardTitle}>
-                2.23
+                $ 137.0bn
               </h4>
               <p className={classes.cardCategory}>Total Demanded</p>
               <h4 className={classes.cardTitle}>
@@ -170,15 +163,15 @@ export default function Dashboard() {
         <Card>
           <CardHeader color="success" stats icon>
             <CardIcon color="success">
-              <Store />
+              <Icon>fitness_center</Icon>
             </CardIcon>
             <p className={classes.cardCategory}>Score</p>
             <h3 className={classes.cardTitle}>
-              2.23
+              1.89
             </h3>
             <p className={classes.cardCategory}>Additional Cost</p>
             <h4 className={classes.cardTitle}>
-              2.23
+              $249.0$
             </h4>
             <p className={classes.cardCategory}>Dim2</p>
             <h4 className={classes.cardTitle}>
@@ -214,10 +207,14 @@ export default function Dashboard() {
           <Card>
             <CardHeader color="danger" stats icon>
               <CardIcon color="danger">
-                <Icon>info_outline</Icon>
+                <Icon>taxi_alert</Icon>
               </CardIcon>
               <p className={classes.cardCategory}>Score</p>
-              <h3 className={classes.cardTitle}>75</h3>
+              <h3 className={classes.cardTitle}>1.32</h3>
+              <p className={classes.cardCategory}>Additional Costs</p>
+              <h4 className={classes.cardTitle}>
+                $34.0bn
+              </h4>
               <p className={classes.cardCategory}>Delay</p>
               <h4 className={classes.cardTitle}>
                 2.23
@@ -225,10 +222,6 @@ export default function Dashboard() {
               <p className={classes.cardCategory}>Public Outrage</p>
               <h4 className={classes.cardTitle}>
                 10.0
-              </h4>
-              <p className={classes.cardCategory}>Dim3</p>
-              <h4 className={classes.cardTitle}>
-                1.0
               </h4>
             </CardHeader>
           </Card>
