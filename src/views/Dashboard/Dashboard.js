@@ -171,7 +171,7 @@ export default function Dashboard() {
             </h3>
             <p className={classes.cardCategory}>Additional Cost</p>
             <h4 className={classes.cardTitle}>
-              $249.0$
+              $249.0bn
             </h4>
             <p className={classes.cardCategory}>Dim2</p>
             <h4 className={classes.cardTitle}>
