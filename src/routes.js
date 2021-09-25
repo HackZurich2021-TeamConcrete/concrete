@@ -31,56 +31,57 @@ import Typography from "views/Typography/Typography.js";
 import Icons from "views/Icons/Icons.js";
 import Maps from "views/Maps/Maps.js";
 import NotificationsPage from "views/Notifications/Notifications.js";
+import OverviewCard from "components/Card/OverviewCard.js"
 // core components/views for RTL layout
 
 const dashboardRoutes = [
   {
     path: "/dashboard",
-    name: "Dashboard",
-    icon: Dashboard,
+    name: "Build Rd. 420",
+    icon: OverviewCard,
     component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/user",
-    name: "User Profile",
-    icon: Person,
-    component: UserProfile,
+    name: "Second Street 11",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/table",
-    name: "Table List",
-    icon: "content_paste",
-    component: TableList,
+    name: "Fantasy Lane 123",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/typography",
-    name: "Typography",
-    icon: LibraryBooks,
-    component: Typography,
+    name: "Boring Av. 69",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/icons",
-    name: "Icons",
-    icon: BubbleChart,
-    component: Icons,
+    name: "Duckstreet 404",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/maps",
-    name: "Maps",
-    icon: LocationOn,
-    component: Maps,
+    name: "Lost Lane 678",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
   {
     path: "/notifications",
-    name: "Notifications",
-    icon: Notifications,
-    component: NotificationsPage,
+    name: "End of the World Av. 12",
+    icon: OverviewCard,
+    component: DashboardPage,
     layout: "/admin",
   },
 ];

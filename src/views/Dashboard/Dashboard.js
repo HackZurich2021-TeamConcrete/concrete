@@ -27,6 +27,7 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardIcon from "components/Card/CardIcon.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
+import OverviewCard from "components/Card/OverviewCard.js"
 
 import { bugs, website, server } from "variables/general.js";
 
@@ -97,7 +98,7 @@ export default function Dashboard() {
     </GridItem>
     </GridContainer>
       <GridContainer>
-        <GridItem xs={10} sm={10} md={10}>
+        <GridItem xs={9} sm={9} md={9}>
           <Card chart>
             <CardHeader color="warning">
               <ChartistGraph
@@ -114,7 +115,7 @@ export default function Dashboard() {
               </CardBody>
           </Card>
         </GridItem>
-        <GridItem xs={2} sm={2} md={2}>
+        <GridItem xs={3} sm={3} md={3}>
           <Card>
             <CardHeader color="warning" stats icon>
               <CardIcon color="warning">
@@ -142,7 +143,7 @@ export default function Dashboard() {
       </GridContainer>
 
       <GridContainer>
-      <GridItem xs={10} sm={10} md={10}>
+      <GridItem xs={9} sm={9} md={9}>
         <Card chart>
           <CardHeader color="success">
             <ChartistGraph
@@ -158,7 +159,7 @@ export default function Dashboard() {
           </CardBody>
         </Card>
       </GridItem>
-      <GridItem xs={2} sm={2} md={2}>
+      <GridItem xs={3} sm={3} md={3}>
         <Card>
           <CardHeader color="success" stats icon>
             <CardIcon color="success">
@@ -186,7 +187,7 @@ export default function Dashboard() {
     </GridContainer>
 
     <GridContainer>
-      <GridItem xs={10} sm={10} md={10}>
+      <GridItem xs={9} sm={9} md={9}>
         <Card chart>
           <CardHeader color="danger">
             <ChartistGraph
@@ -202,7 +203,7 @@ export default function Dashboard() {
           </CardBody>
         </Card>
       </GridItem>
-        <GridItem xs={2} sm={2} md={2}>
+        <GridItem xs={3} sm={3} md={3}>
           <Card>
             <CardHeader color="danger" stats icon>
               <CardIcon color="danger">

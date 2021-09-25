@@ -17,3 +17,6 @@ sized/
 thumbs/
 _thumbs/
 */expressionengine/cache/*
+node_modules/.*
+node_modules/.cache/.eslintcache
+node_modules/.cache/.eslintcache
