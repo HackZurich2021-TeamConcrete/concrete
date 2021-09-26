@@ -59,7 +59,7 @@ export default function ComplexGrid({ onClick }) {
                   Used: 29.4 m^3
                 </Typography>
 
-                <Typography variant="body2" color="common.green">
+                <Typography color="common.green">
                 Average Quality ordered: 4
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
